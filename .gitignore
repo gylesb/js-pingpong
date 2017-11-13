@@ -1,2 +1,5 @@
+bower_compnents/
 node_modules/
 .DS_Store
+build/
+tmp/
