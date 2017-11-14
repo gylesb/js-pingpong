@@ -24,6 +24,36 @@
         </div>
       </form>
       <ul id="solution"></ul>
+
+      <form id="calculator-form">
+        <div class="form-group">
+          <label for="number1">Number 1:</label>
+          <input id="number1" type="text"><br>
+          <label for="number2">Number 2:</label>
+          <input id="number2" type="text"><br>
+          <div class="radio">
+            <label>
+              <input type="radio" name="operator" value="add">Add
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="operator" value="sub">Subtract
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="operator" value="mul">Multiply
+            </label>
+          </div><div class="radio">
+            <label>
+              <input type="radio" name="operator" value="div">Divide
+            </label>
+          </div>
+          <button class="btn-success" type="submit">Submit</button>
+        </div>
+      </form>
+      <h3 id="result"></h3>
     </div>
   </body>
 </html>
